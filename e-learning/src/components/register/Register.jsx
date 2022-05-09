@@ -10,8 +10,8 @@ export default function Register() {
   
     const navigate=useNavigate();
 
-    // let user=localStorage.getItem("user-info");
-    // console.log(user.name);
+    // let user=JSON.stringify(localStorage.getItem("user-info"));
+    // alert(user.name);
 
   
 //   useEffect(()=>{

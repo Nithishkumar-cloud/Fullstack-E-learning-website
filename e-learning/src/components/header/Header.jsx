@@ -10,7 +10,13 @@ export default function Header() {
   function logout(){
        localStorage.clear();
        navigate("/");
+
+
+     
   }
+  const dashboard=()=>{
+    alert("Please Enroll to View thr DAshBoard");
+  };
   return (
 
     <nav>
@@ -22,7 +28,7 @@ export default function Header() {
             localStorage.getItem("user-info") ?
               <>
                 <li><Link to="/courses" className="abc">All Courses</Link></li>
-                <li><Link to="/dashboard" className="abc">My DashBoard</Link></li>
+                <li  onClick={dashboard} className="abc">MyDashboard</li>
                 <li><Link to="/about" className="abc">About</Link></li>
                 <li><Link to="/contact" className="abc">Contact</Link></li>
                 <li><Link to="/login" className="abc"onClick={logout} >Logout</Link></li>

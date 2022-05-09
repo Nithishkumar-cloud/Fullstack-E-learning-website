@@ -1,5 +1,8 @@
 const express=require("express");
 const sql=require("mysql");
+// dotenv for maintaining global values like NODE_ENV
+require("dotenv").config();
+
 const cors=require("cors");
 const bcrypt=require("bcrypt");
 const saltRounds=10;
@@ -9,7 +12,10 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
 const port= process.env.PORT || 9000;
-
+//--------------------- Serve Assets ---------------------//
+if (process.env.NODE_ENV === "production") {
+    app.use(express.static("build"));
+  }
 
 
 const db=sql.createConnection({
