@@ -1,0 +1,109 @@
+
+    [
+        {
+                    "Coursename" :"Reactjs Basics",
+                    "id" : 1001,
+                    "startdate" : "19-12-2020",
+                    "enddate" : "15-06-2021",
+                    "Instructors" : "John Doe",
+                    "Duration" : "10 months",
+                    "Description" :"React is a JavaScript-based UI development library. Facebook and an open-source developer community run it. Although React is a library rather than a language, it is widely used in web development. The library first appeared in May 2013 and is now one of the most commonly used frontend libraries for web development"  
+        },
+        {
+            
+                    "Coursename" :"Nodejs Basics",
+                    "id" : 1002,
+                    "startdate" : "19-12-2020",
+                    "enddate" : "15-06-2021",
+                    "Instructors" : "John Doe",
+                    "Duration" : "12 months",
+                    "Description" :"Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a JavaScript everywhere paradigm, unifying web-application development around a single programming language, rather than different languages for server-side and client-side scripts."
+             
+            
+           
+        },
+
+        {
+           
+               
+                    "Coursename" :"Python Tutorial",
+                    "id" : 1003,
+                    "startdate" : "19-12-2020",
+                    "enddate" : "15-06-2021",
+                    "Instructors" : "John Doe",
+                    "Duration" : "8 months",
+                    "Description" :"Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language and first released it in 1991 as Python 0.9.0. Python 2.0 was released in 2000 and introduced new features such as list comprehensions, cycle-detecting garbage collection, reference counting, and Unicode support. Python 3.0, released in 2008, was a major revision that is not completely backward-compatible with earlier versions. Python 2 was discontinued with version 2.7.18 in 2020."
+              
+           
+           
+        },
+
+        {
+           
+                    "Coursename" :"Automation testing",
+                    "id" : 1004,
+                    "startdate" : "19-12-2020",
+                    "enddate" : "15-06-2021",
+                    "Instructors" : "John Doe",
+                    "Duration" : "6 months",
+                    "Description" :"Automation testing is the process of testing software and other tech products to ensure it meets strict requirements. Essentially, it's a test to double-check that the equipment or software does exactly what it was designed to do. It tests for bugs, defects, and any other issues that can arise with product development."
+                
+            
+        },
+
+        {
+             "Coursename" :"Agile Guide",
+                    "id" : 1005,
+                    "startdate" : "19-12-2020",
+                    "enddate" : "15-06-2021",
+                    "Instructors" : "John Doe",
+                    "Duration" : "4 months",
+                    "Description" :"Agile software development refers to software development methodologies centered around the idea of iterative development, where requirements and solutions evolve through collaboration between self-organizing cross-functional teams. The ultimate value in Agile development is that it enables teams to deliver value faster, with greater quality and predictability, and greater aptitude to respond to change. Scrum and Kanban are two of the most widely used Agile methodologies. Below are the most frequently asked questions around Agile and Scrum, answered by our experts."
+        
+            
+            
+        },
+
+        {
+            
+                    "Coursename" :"Devops Manual",
+                    "id" : 1006,
+                    "startdate" : "19-12-2020",
+                    "enddate" : "15-06-2021",
+                    "Instructors" : "John Doe",
+                    "Duration" : "11 months",
+                    "Description" :"DevOps is the combination of cultural philosophies, practices, and tools that increases an organization's ability to deliver applications and services at high velocity: evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes."
+                
+            
+           
+        },
+
+        {
+          
+                    "Coursename" :"Java & Spring boot",
+                    "id" : 1007,
+                    "startdate" : "19-12-2020",
+                    "enddate" : "15-06-2021",
+                    "Instructors" : "John Doe",
+                    "Duration" : "12 months",
+                    "Description" :"Spring Boot is an open source, microservice-based Java web framework. The  Spring Boot framework creates a fully production-ready environment that is completely configurable using its prebuilt code within its codebase. The microservice architecture provides developers with a fully enclosed application, including embedded application servers."
+                
+        
+           
+        },
+
+        {
+            
+                
+                    "Coursename" :"Angular Tutorial",
+                    "id" : 1008,
+                    "startdate" : "19-12-2020",
+                    "enddate" : "15-06-2021",
+                    "Instructors" : "John Doe",
+                    "Duration" : "12 months",
+                    "Description" :"Angular is an open-source, JavaScript framework written in TypeScript. Google maintains it, and its primary purpose is to develop single-page applications. As a framework, Angular has clear advantages while also providing a standard structure for developers to work with. It enables users to create large applications in a maintainable manner. "
+                
+            
+           
+        }
+    ]

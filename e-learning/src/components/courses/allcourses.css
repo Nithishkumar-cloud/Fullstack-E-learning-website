@@ -1,0 +1,105 @@
+.course{
+  padding:8vw 8vw 0 8vw;
+  background-image: url("https://cdn.pixabay.com/photo/2015/10/29/14/38/web-1012467_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+    grid-template-columns: 500px 500px 500px; 
+    grid-gap: 1rem;
+    /* margin-top: 50px; */
+}
+.course .courses{
+    text-align: start;
+    background: #f9f9ff;
+    height: 100%;
+    width: 55%;
+    cursor: pointer;
+    border-radius: 10px;
+    
+    
+}
+.course .hhh h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: yellow;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.course h1 {
+   
+    font-size: 30px;
+    background: -webkit-linear-gradient(#00FF00, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.course p{
+    color:white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.course .hhh h1::after{
+    content: "";
+    height: 5px;
+    width: 100px;
+    background-color: lightgreen;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+}
+.course .courses img{
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-position:center ;
+    filter: brightness(50%);
+    border-radius: 10px;
+}
+.course-box {
+     display: grid;
+    grid-template-columns: 500px 500px 500px; 
+    grid-gap: 1rem;
+    margin-top: 150px;
+}
+.course .courses .details{
+    padding: 15px 15px 0 15px;
+}
+.course .courses .details span{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 600;
+}
+.course .courses .details h5{
+    font-size: 1rem;
+    color: black;
+    margin-top: 4px;
+}
+.course .courses .timing{
+   font-size: 0.8rem;
+   color: black;
+   margin-left: 160px;
+
+}
+.course .courses .red{
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding: 5px 15px;
+    background-color: yellow;
+    font-weight: 400;
+    border-radius: 6px;
+    color: white;
+    transition: 0.3s ease;
+    border-style: none;
+    margin-top: 2px;
+    cursor: pointer;
+}
+.course .courses .red:hover{
+    color: darkblue;
+    background-color: orange;
+}
+.abc{
+    list-style:none ;
+    color: white;
+    text-decoration: none;
+}

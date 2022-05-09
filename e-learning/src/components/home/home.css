@@ -1,0 +1,70 @@
+
+.home{
+    background-image: url("https://cdn.kimkim.com/files/a/article_images/images/086302c248e6862e01932b8d7aa7000e6f0a61a2/big-4e2a82123fcf980be433e6e42a4337e6.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home h2{
+    background: -webkit-linear-gradient(#00FF00, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+.home h1{
+    color: white;
+    font-size: 2rem; 
+    line-height: 25px;
+    font-weight: bold;
+    margin-left: 5px;
+    display: block;
+    margin-top: 20px;
+}
+/* .home .blue{
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 13px 35px;
+  background-color: darkblue;
+  font-weight: 600;
+  border-radius: 6px;
+  color: white;
+  transition: 0.3s ease;
+  border-style: none;
+  margin-right: 50px;
+}
+.home .yellow{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: yellow;
+    font-weight: 600;
+    border-radius: 6px;
+    color: white;
+    transition: 0.3s ease;
+    border-style: none;
+    margin-left: 50px;
+
+  }
+  .home .button{
+      margin-top: 30px;
+  }
+  .home .blue:hover{
+      color: yellow;
+      background-color: white;
+  }
+  .home .yellow:hover{
+    color: darkblue;
+    background-color: white;
+} */
+.abc{
+    list-style:none ;
+    color: black;
+    text-decoration: none;
+}

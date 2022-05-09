@@ -1,0 +1,70 @@
+.sec{
+    width: 100%;
+   background-image: url("https://images.pexels.com/photos/1037995/pexels-photo-1037995.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.sec .container{
+    width: 80%;
+    margin: 0px auto;
+    padding:8vw 8vw 0 8vw;
+}
+.container .title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container .title h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: coral;
+}
+.container .title h1::after{
+    content: "";
+    height: 5px;
+    width: 100px;
+    background-color: coral;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+}
+.content{
+    float: left;
+    width: 55%;
+}
+.image{
+    float: right;
+    width: 40%;
+}
+.image img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.content .article h4{
+   color: orange;
+   font-size: 17px;
+   letter-spacing: 2px; 
+}
+.content .article h3{
+    color: black;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+.content .content1 h2{
+    margin-top: 20px;
+    color: black;
+    font-weight: normal;
+}
+.content .content1 ul{
+    margin-top: 20px;
+    margin-left: 40px;
+    letter-spacing: 0.9px;
+}
+.content .content1 h3{
+    margin-top: 20px;
+    color: black;
+    font-weight: 600;
+}

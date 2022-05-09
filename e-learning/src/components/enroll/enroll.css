@@ -1,0 +1,93 @@
+.enroll{
+    width: 100%;
+   background-image: url("https://images.pexels.com/photos/1037995/pexels-photo-1037995.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.enroll .container0{
+    width: 80%;
+    margin: 0px auto;
+    padding:8vw 8vw 0 8vw;
+}
+.content0{
+    float: left;
+    width: 55%;
+}
+.image0{
+    float: right;
+    position: absolute;
+    right: 0px;
+    width: 40%;
+    
+}
+.image0 img{
+    width: 100%;
+    height: 669px;
+}
+.content0 .article0 h2{
+   color: orange;
+   letter-spacing: 2px; 
+}
+.content0 .article0 h3{
+    color: black;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+.content0 .content01 h3{
+    margin-top: 20px;
+    color: black;
+    font-weight: 600;
+}
+
+
+.content0 .art p{
+    margin-top: 10px;
+    font-size: 20px;
+    color:black;
+    word-spacing: 1px;
+   
+}
+.content0 .green{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: yellow;
+    font-weight: 600;
+    border-radius: 6px;
+    color: white;
+    transition: 0.3s ease;
+    border-style: none;
+    /* margin-left: 17px;
+    margin-top: 20px; */
+  }
+  .btnn{
+      margin-left: 30px;
+      margin-bottom: 10px;
+  }
+  .content0 .green:hover{
+    color: darkblue;
+    background-color: white;
+  }
+  .form1{
+    
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 40%;
+    height: 10%;
+}
+.form1 input{
+    margin: 10px 0;
+    padding: 7px 5px;
+    border: 1px solid rgb(84,40,241);
+    border-radius: 6px;
+}
+
+
+.form1 h3{
+    color: lightcoral;
+    font-size: 15px;
+}

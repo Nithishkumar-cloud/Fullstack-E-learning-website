@@ -1,0 +1,57 @@
+.login{
+    padding-left: 8vw;
+    background-image: linear-gradient(rgba(99,112,168,0.5),rgba(81,91,233,0.5)),url("https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.login .reminder1{
+    color: white;
+    margin-left: 60px;
+}
+.login .reminder1 h1{
+    color: blue;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.login .reminder1 h2{
+    color: lightblue;
+    font-size: 30px;
+}
+.login .form1{
+    background: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin-left: 90px; 
+    width: 30%;
+    height: 43%;
+}
+.login .form1 input{
+    margin: 15px 0;
+    padding: 15px 10px;
+    border: 1px solid rgb(84,40,241);
+}
+.login .form1 .yellow1{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: yellow;
+    font-weight: 600;
+    border-radius: 6px;
+    color: white;
+    transition: 0.3s ease;
+    border-style: none;
+}
+.login .form1 .yellow1:hover{
+    color: darkblue;
+    background-color: white;
+}
+.login .form1 .btn{
+    margin-top: 20px;
+}
