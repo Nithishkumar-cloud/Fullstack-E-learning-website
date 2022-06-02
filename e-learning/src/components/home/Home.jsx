@@ -6,7 +6,7 @@ export default function Home() {
     <>
     <Header/>
     <section className="home">
-         <h2>CRYSTAL DELTA</h2>
+         <h2>XYZ Solutions</h2>
          <h1>We Bring Clarity To Complex Digital Landscapes.</h1>
          <h1>We believe in the power of technology to connect & inspire customers on their digital adventure.</h1>
          
